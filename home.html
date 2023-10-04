@@ -5,8 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Best Fuel</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/0e84b8b0b6.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="fav-ico.ico" type="image/x-icon">
 </head>
 <body>
+    <div class="border-sup">
+        <a href="https://pldprojects.netlify.app/projetos" target="_self">
+            <div class="btn_home">
+                <i id="home" class="fa-solid fa-house"></i>
+             <p class="n_home">Home</p>
+            </div>
+        </a>
+        <input id="chk"type="checkbox"  onclick="mode_L()">
+        <label for="chk" class="switch">
+         <span class="slider"></span>
+        </label>
+    </div>
     <div class="container">
         <p>Média do veículo</p>
         <input id="media" type="number">
@@ -17,7 +32,7 @@
         <p>Pedágio</p>
         <input id="pedagio" type="number">
         <input type="button" value="Calcular" onclick="calc()">
-        <h1 id="result"></h1>
+        <p id="result"></p>
     </div>
 
     

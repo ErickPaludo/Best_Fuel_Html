@@ -8,8 +8,7 @@
         pedagio = 0;
     }
     if(!result || !media || !preco || !distancia){
-        cont = 0;
-        result.innerHTML = cont.toLocaleString('pt-br',{style: `currency`, currency: 'BRL'});
+        result.innerHTML = "Ainda há campos preenchidos"
     }
     else{
         let cont = ((distancia/media) * preco) + pedagio;
