@@ -123,10 +123,26 @@ align-items: center;
     border-radius: 15px;
     background-color: rgb(36, 41, 47);
 }
-#box{
+#box_btn{
 margin-top: 15px;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+}
+
+#box_1,
+#box_2,
+#box_3,
+#box_4{
+    margin-top: 25px;
+    padding: 15px;
+    background-color: rgba(36, 41, 47, 0.308);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.041);
+
 }

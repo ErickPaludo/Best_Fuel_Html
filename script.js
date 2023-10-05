@@ -8,11 +8,10 @@
         pedagio = 0;
     }
     if(!result || !media || !preco || !distancia){
-        result.innerHTML = "Ainda há campos preenchidos"
+        result.innerHTML = "Favor preencher todos os campos"
     }
     else{
         let cont = ((distancia/media) * preco) + pedagio;
         result.innerHTML = cont.toLocaleString('pt-br',{style: `currency`, currency: 'BRL'});
     }
-   
  }
