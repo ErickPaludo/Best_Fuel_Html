@@ -90,7 +90,30 @@ flex-direction: column;
 align-items: center;
 row-gap: 10px;
 }
+#media,
+#preco,
+#distancia,
+#pedagio{
+    color: white;
+    background-color: rgb(36, 41, 47);
+    border: none;
+    height: 20px;
+    width: 100px;
+    border-radius: 15px;
+    display: flex;
+    text-align: center;
+}
 #result{
     font-size: 18pt;
    font-weight: bold;
+}
+#env{
+    color: white;
+    font-size: 18pt;
+    border: black;
+    border-radius: 15px;
+    background-color: rgb(36, 41, 47);
+}
+#box{
+
 }
