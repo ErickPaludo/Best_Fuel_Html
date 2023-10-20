@@ -25,26 +25,33 @@
     <div class="container">
         <div id="box_1">
             <p>Média do veículo</p>
-            <input id="media" type="number">
+            <input id="media" type="number" placeholder="R$ 0,00">
         </div>
         <div id="box_2">
             <p>Preço do Combustível</p>
-            <input id="preco" type="number">
+            <input id="preco" type="number" placeholder="R$ 0,00">
         </div>
         <div id="box_3">
             <p>Distáncia a ser percorrida</p>
-            <input id="distancia" type="number">
+            <input id="distancia" type="number" placeholder="R$ 0,00">
         </div>
         <div id="box_4">
             <p>Pedágio</p>
-            <input id="pedagio" type="number">
+            <input id="pedagio" type="number" placeholder="R$ 0,00">
+            <p>Local</p>
+            <input id="pedagio" type="text" placeholder="Cidade / Estrada">
         </div>
-    </div>
+        <div id="PedAddOurSub">
+            <input id="add" type="button" value="+">
+            <input id="rem" type="button" value="-">
+        </div>
+  
 
     <div id="box_btn">
         <input id="env" type="button" value="Calcular" onclick="calc()">
-        <p id="result"></p>
     </div>
+    <p id="result"></p>
+</div>
 </body>
 <script src="script.js"></script>
 </html>
